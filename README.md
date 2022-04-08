@@ -14,5 +14,5 @@
 |lista wad|div.review-feature__title--negatives~ div.review-feature__item|cons||
 |dla ilu osób przydatna|span[id^="votes-yes"]|useful||
 |dla ilu osób nieprzydatna|span[id^="votes-no"]|useless||
-|data wystawienia opinii|span.user-post__published > time:nth-child(1)["datime"]|published_date||
-|data zakupu|span.user-post__published > time:nth-child(2)["datime"]|purchase_date||
+|data wystawienia opinii|span.user-post__published > time:nth-child(1)["datetime"]|published_date||
+|data zakupu|span.user-post__published > time:nth-child(2)["datetime"]|purchase_date||
