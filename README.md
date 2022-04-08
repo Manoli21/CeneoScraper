@@ -4,15 +4,15 @@
 
 |Składowa|Selektor|Nazwa zmiennej|Typ zmiennej|
 |---------|---------|-------------|-------------|
-|opinia|div.js_product-review||||
-|identyfikator opiniii|div.js_product-review["data-entry-id"\]|||
-|autor opinii|span.user-post__author-name|||
-|rekomendacja|span.user-post__author-recommendation > em|||
-|liczba gwiazdek|span.user-post__score-count|||
-|treść opinii|div.user-post__text|||
-|lista zalet|div.review-feature__title--positives~ div.review-feature__item|||
-|lista wad|div.review-feature__title--negatives~ div.review-feature__item|||
-|dla ilu osób przydatna|span[id^="votes-yes"]|||
-|dla ilu osób nieprzydatna|span[id^="votes-no"]|||
-|data wystawienia opinii|span.user-post__published > time:nth-child(1)["datime"]|||
-|data zakupu|span.user-post__published > time:nth-child(2)["datime"]|||
+|opinia|div.js_product-review|opinion|bs4.element.Tag||
+|identyfikator opiniii|div.js_product-review["data-entry-id"\]|opinion_id|str|
+|autor opinii|span.user-post__author-name|author||
+|rekomendacja|span.user-post__author-recommendation > em|recommendation||
+|liczba gwiazdek|span.user-post__score-count|stars||
+|treść opinii|div.user-post__text|content||
+|lista zalet|div.review-feature__title--positives~ div.review-feature__item|props||
+|lista wad|div.review-feature__title--negatives~ div.review-feature__item|cons||
+|dla ilu osób przydatna|span[id^="votes-yes"]|useful||
+|dla ilu osób nieprzydatna|span[id^="votes-no"]|useless||
+|data wystawienia opinii|span.user-post__published > time:nth-child(1)["datime"]|published_date||
+|data zakupu|span.user-post__published > time:nth-child(2)["datime"]|purchase_date||
