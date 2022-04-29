@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 print(__name__)
 
 if __name__ == "__main__":
-# kod pobierany przez użytkownika
+# kod produktupobierany przez użytkownika
     url = "https://www.ceneo.pl/91714422#tab=reviews"
 
     all_opinions = []
