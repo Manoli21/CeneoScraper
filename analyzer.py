@@ -34,5 +34,6 @@ plt.ylabel("Liczba opinii")
 plt.grid(True)
 plt.xticks(rotation=0)
 plt.savefig(f"plots/{product_id}stars.png")
-plt.show()
 plt.close()
+
+#jeśli mamy 0 gwiazdek to dla ile polecam/nie polecam
